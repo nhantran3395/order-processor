@@ -46,5 +46,8 @@ orderProcessor.placeOrder({
     ]
 });
 
-
+orderProcessor.placeOrder({
+    orderNumber: 'OD2325',
+    lineItems: []
+});
 
